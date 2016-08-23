@@ -193,6 +193,7 @@ def scat_hist(xdata, ydata, color, x_axis, y_axis, system, analysis, num_b = 100
 	bottom_h = left_h = left+width+0.01
 	rect_scatter = [left, bottom, width, height]
 	rect_histy = [left_h, bottom, 0.2, height]
+	y_units = ''
 	
 	# INITIATING THE PLOT...
 	plt.figure(1, figsize=(10,8))
